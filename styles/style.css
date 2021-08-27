@@ -1,0 +1,90 @@
+/*Reset CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+/*Variables*/
+:root {
+  --title-color: #8bc34a;
+  --subtitle-color: #7b1fa2;
+  --text-color: #212121;
+
+  --divider-color: #bdbdbd;
+
+  --title-font: "Azeret Mono", monospace;
+  --body-font: "Poppins", sans-serif;
+}
+
+/*Base style*/
+.container {
+  margin: 5% 10% 5% 10%;
+}
+
+hr {
+  width: 60%;
+  margin: auto;
+
+  color: var(--divider-color);
+}
+
+.image-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 5%;
+}
+
+img.icon {
+  width: 5%;
+}
+
+img.little-icon {
+  width: 3%;
+}
+
+.bullet {
+  display: flex;
+  align-items: center;
+}
+
+.list ul li span {
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+/*Text*/
+h1 {
+  font-family: var(--title-font);
+  font-size: 4rem;
+  color: var(--title-color);
+  text-align: center;
+
+  margin-bottom: 4%;
+}
+
+.title {
+  font-family: var(--body-font);
+  font-size: 2rem;
+  color: var(--subtitle-color);
+
+  margin-left: 1.5rem;
+}
+
+.normal-text {
+  font-family: var(--body-font);
+  font-size: 1.25rem;
+  color: var(--text-color);
+
+  margin-bottom: 2%;
+}
+
+.finish-paragraph {
+  margin-bottom: 5%;
+}
